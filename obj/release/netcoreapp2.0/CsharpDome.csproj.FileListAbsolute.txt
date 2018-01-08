@@ -1,0 +1,10 @@
+D:\.net Code\CsharpDome\bin\release\netcoreapp2.0\CsharpDome.deps.json
+D:\.net Code\CsharpDome\bin\release\netcoreapp2.0\CsharpDome.runtimeconfig.json
+D:\.net Code\CsharpDome\bin\release\netcoreapp2.0\CsharpDome.runtimeconfig.dev.json
+D:\.net Code\CsharpDome\bin\release\netcoreapp2.0\CsharpDome.dll
+D:\.net Code\CsharpDome\bin\release\netcoreapp2.0\CsharpDome.pdb
+D:\.net Code\CsharpDome\obj\release\netcoreapp2.0\CsharpDome.csproj.CoreCompileInputs.cache
+D:\.net Code\CsharpDome\obj\release\netcoreapp2.0\CsharpDome.AssemblyInfoInputs.cache
+D:\.net Code\CsharpDome\obj\release\netcoreapp2.0\CsharpDome.AssemblyInfo.cs
+D:\.net Code\CsharpDome\obj\release\netcoreapp2.0\CsharpDome.dll
+D:\.net Code\CsharpDome\obj\release\netcoreapp2.0\CsharpDome.pdb
