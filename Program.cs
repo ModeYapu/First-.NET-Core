@@ -19,13 +19,35 @@ namespace CsharpDome
             director.Construct(b2);
             Product p2 = b2.GetResult();
             p2.Show();
+
+            Calculator();
             Console.ReadKey();
         }
         private static void Voide()
         {
 
         }
+        public static void Calculator()
+        {
+            Console.Write("请输入数字A：");
+            string strNumberA = Console.ReadLine();
+            Console.Write("请选择运算符号(+、-、*、/)：");
+            string strOperate = Console.ReadLine();
+            Console.Write("请输入数字B：");
+            string strNumberB = Console.ReadLine();
+            string strResult = "";
+            Operation oper;
+            oper = OperationFactory.createOperate(strOperate);
+            oper.NumberA = Convert.ToDouble(strNumberA);
+            oper.NumberB = Convert.ToDouble(strNumberB);
+            strResult = oper.GetResult().ToString();
+
+            Console.WriteLine("结果是：" + strResult);    
+        }
     }
+    
+
+
     class Director
     {
         public void Construct(Builder builder)
